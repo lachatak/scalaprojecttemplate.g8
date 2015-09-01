@@ -1,7 +1,7 @@
-package org.kaloz.template.main
+package org.kaloz.$name$
 
 import com.typesafe.config.ConfigFactory
 
-object TemplateAppConfig {
+object $name;format="Camel"$AppConfig {
   private val config = ConfigFactory.load()
 }

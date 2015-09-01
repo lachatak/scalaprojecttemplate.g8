@@ -27,7 +27,7 @@ object Dependencies {
 
   import Library._
 
-  val template = deps(
+  val $name$ = deps(
     akkaActor,
     akkaSlf4j,
     config,

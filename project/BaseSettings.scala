@@ -7,8 +7,8 @@ object BaseSettings {
   lazy val settings =
   Seq(
     version := "1.0.0",
-    organization := "org.kaloz.template",
-    description := "template",
+    organization := "org.kaloz.$name$",
+    description := "$name;format="Camel"$ Project",
     scalaVersion := "2.11.6",
     homepage := Some(url("http://kaloz.org")),
     scalacOptions := Seq(
