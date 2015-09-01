@@ -24,7 +24,7 @@ object BaseSettings {
       "-Xlint:unchecked", 
       "-Xlint:deprecation"
     ),
-    shellPrompt := { s => "[" + scala.Console.BLUE + Project.extract(s).currentProject.id + scala.Console.RESET + "] $ "}
+    shellPrompt := { s => "[" + scala.Console.BLUE + Project.extract(s).currentProject.id + scala.Console.RESET + "] $"$"$ "}
   ) ++
   ResolverSettings.settings ++
   Testing.settings ++
