@@ -24,6 +24,7 @@ object BaseSettings {
       "-Xlint:unchecked", 
       "-Xlint:deprecation"
     ),
+    mainClass in (Compile, run) := Some("org.kaloz.$name$.$name;format="Camel"$App"),
     shellPrompt := { s => "[" + scala.Console.BLUE + Project.extract(s).currentProject.id + scala.Console.RESET + "] $"$"$ "}
   ) ++
   ResolverSettings.settings ++
