@@ -5,7 +5,7 @@ import akka.util.Timeout
 
 import scala.concurrent.duration._
 
-trait $name;format="Camel"$AppModule with $name;format="Camel"$AppConfig {
+trait $name;format="Camel"$AppModule extends $name;format="Camel"$AppConfig {
 
   implicit val system = ActorSystem("$name$")
   implicit val timeout: Timeout = 10 second
